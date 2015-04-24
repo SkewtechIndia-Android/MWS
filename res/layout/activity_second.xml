@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mwsbg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.skew.mws.SecondActivity" 
+    android:orientation="vertical">
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="40dp"
+           android:src="@drawable/tanker" />
+
+            <Button
+                android:id="@+id/tanker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanker" />
+        
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jar" />
+        <Button
+            android:id="@+id/drinkingwater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:text="Drinking Water" />
+    </LinearLayout> 

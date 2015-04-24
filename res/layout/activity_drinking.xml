@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/mwsbg"
+    tools:context="com.skew.mws.DrinkingActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Drinking Water..." />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jar" />
+
+        <Button
+            android:id="@+id/ronormalmonthly"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RO(Normal):Rs.200(Monthly) (+)"
+            android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_alignTop="@+id/button2"
+        android:text="20Ltrs Jar, 30Btls/Month, Deposit:Rs.300"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+         
+          <Button
+        android:id="@+id/rochilledmonthly"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:text="RO(Chilled):Rs.750(Monthly) (+)" 
+        android:textStyle="bold"/>
+          <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_alignTop="@+id/button2"
+        android:text="20Ltrs Jar(Coolcage), 30Btls/Month, Deposit:Rs.500"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/ronormaljar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="RO(20Ltrs.Normal):Rs.20 (+)" 
+        android:textStyle="bold"/>
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_alignTop="@+id/button2"
+        android:text="Transparent Jar,Deposit:Rs.500"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+     <Button
+        android:id="@+id/rochilledjar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="RO(20Ltrs.Chilled):Rs.40 (+)"
+        android:textStyle="bold" />
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_alignTop="@+id/button2"
+        android:text="Transparent Jar,Deposit:Rs.500"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+</RelativeLayout>
