@@ -22,6 +22,7 @@ public class DrinkingActivity extends ActionBarActivity {
 	float ronormaljar_deposit = 500;
 	float rochilledjar_deposit = 500;
 	String order_val_string;
+	String temp;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
